@@ -6,7 +6,7 @@ public class LeapYear {
 		// TODO Auto-generated method stub
 		Scanner in = new Scanner(System.in);
 		System.out.println("This year is a leap year");
-		boolean isdivisible = x/4 ;
+		boolean isdivisible = x/4 &&
 		
 		System.out.println("the second of two integers will be averaged");
 		int n2 = in.nextInt();
