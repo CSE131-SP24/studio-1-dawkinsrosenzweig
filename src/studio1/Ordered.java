@@ -9,13 +9,14 @@ public class Ordered {
 	 */
 	public static void main(String[] args) {
 		Scanner in = new Scanner(System.in);
-		System.out.println("Value for x?");
+		System.out.println("input value for x");
 		int x = in.nextInt();
-		System.out.println("Value for y?");
+		System.out.println("input value for y");
 		int y = in.nextInt();
-		System.out.println("Value for z?");
+		System.out.println("input value for z");
 		int z = in.nextInt();
-
+		boolean isinorder = (x<y)&&(y<z);
+		System.out.print(isinorder);
 	}
 
 }
